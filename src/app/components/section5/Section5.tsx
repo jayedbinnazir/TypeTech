@@ -61,7 +61,7 @@ export default function Section5() {
               <div
                 className="mt-2 text-2xl leading-7 text-black"
                 role="heading"
-                aria-level="2"
+                aria-level={2} // Corrected the aria-level type to number
               >
                 Exclusive Miami Beach Retail
                 <br />
@@ -145,7 +145,7 @@ export default function Section5() {
               <div
                 className="mt-2 text-2xl leading-7 text-black"
                 role="heading"
-                aria-level="2"
+                aria-level={2} // Corrected the aria-level type to number
               >
                 Exclusive Miami Beach Retail
                 <br />
@@ -225,7 +225,7 @@ export default function Section5() {
               <div
                 className="mt-2 text-2xl leading-7 text-black"
                 role="heading"
-                aria-level="2"
+                aria-level={2} // Corrected the aria-level type to number
               >
                 Exclusive Miami Beach Retail
                 <br />
