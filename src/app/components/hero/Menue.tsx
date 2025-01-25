@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Menue() {
   return (
-    <div className="flex gap-1 md:gap-7 items-center text-[#FFFFFF] font-semibold font-nunito text-[18px] justify-center z-20 fixed top-16 md:top-10 p-4 w-4/5">
-      <div className="w-1/2 ml-8">
+    <div className="flex  gap-1 md:gap-7 items-center text-[#FFFFFF] font-semibold font-nunito text-[18px] justify-center z-20 absolute top-20 md:top-12 p-2 w-full md:w-4/5">
+      <div className="w-1/2 md:ml-8">
         <Image src="/assets/Logo.svg" alt="Logo" width={100} height={50} />
       </div>
       {/* HamBurger */}

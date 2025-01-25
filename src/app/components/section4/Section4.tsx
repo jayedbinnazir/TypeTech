@@ -12,7 +12,7 @@ export default function Section4() {
       </div>
 
       <div className="flex flex-col md:flex-row">
-        <div className="shadow-[0_5px_10px_4px_rgba(0,0,0,0.1)] p-4 w-[258px] flex flex-col justify-center items-center gap-2">
+        <div className="shadow-lg shadow-gray-400/40 p-4 w-[75vw] md:w-[258px] flex flex-col justify-center items-center gap-2">
           <Image
             src="/assets/icon.png"
             alt="Corporate Relocation Icon 1"
@@ -37,7 +37,7 @@ export default function Section4() {
           </button>
         </div>
 
-        <div className="shadow-[0_5px_10px_4px_rgba(0,0,0,0.1)] p-4 w-[258px] flex flex-col justify-center items-center gap-2">
+        <div className="shadow-lg shadow-gray-400/40 w-[75vw] p-4 md:w-[258px] flex flex-col justify-center items-center gap-2">
           <Image
             src="/assets/icon (1).png"
             alt="Corporate Relocation Icon 2"
@@ -46,7 +46,7 @@ export default function Section4() {
             height={142}
           />
           <p className="p-1 font-Poppins font-bold text-[24px] flex flex-col items-center justify-center leading-[1]">
-            Corporate <span>Relocation</span>
+            Tenant <span>Representation</span>
           </p>
           <p className="grow w-[236px] h-[250px] text-[14px] text-center text-[#5C727D] py-5">
             RISE Realty provides top-notch corporate relocation services
@@ -62,7 +62,7 @@ export default function Section4() {
           </button>
         </div>
 
-        <div className="shadow-[0_5px_10px_4px_rgba(0,0,0,0.1)] p-4 w-[258px] flex flex-col justify-center items-center gap-2">
+        <div className="shadow-lg shadow-gray-400/40 w-[75vw] p-4 md:w-[258px] flex flex-col justify-center items-center gap-2">
           <Image
             src="/assets/icon (2).png"
             alt="Corporate Relocation Icon 3"
@@ -71,7 +71,7 @@ export default function Section4() {
             height={142}
           />
           <p className="p-1 font-Poppins font-bold text-[24px] flex flex-col items-center justify-center leading-[1]">
-            Corporate <span>Relocation</span>
+            Residential <span> Leasing & Sales</span>
           </p>
           <p className="grow w-[236px] h-[250px] text-[14px] text-center text-[#5C727D] py-5">
             RISE Realty provides top-notch corporate relocation services
@@ -87,7 +87,7 @@ export default function Section4() {
           </button>
         </div>
 
-        <div className="shadow-[0_5px_10px_4px_rgba(0,0,0,0.1)] p-4 w-[258px] flex flex-col justify-center items-center gap-2">
+        <div className="shadow-lg shadow-gray-400/40 w-[75vw] p-4 md:w-[258px] flex flex-col justify-center items-center gap-2">
           <Image
             src="/assets/icon (3).png"
             alt="Corporate Relocation Icon 4"
@@ -96,7 +96,7 @@ export default function Section4() {
             height={142}
           />
           <p className="p-1 font-Poppins font-bold text-[24px] flex flex-col items-center justify-center leading-[1]">
-            Corporate <span>Relocation</span>
+            Serviced <span>Offices</span>
           </p>
           <p className="grow w-[236px] h-[250px] text-[14px] text-center text-[#5C727D] py-5">
             RISE Realty provides top-notch corporate relocation services

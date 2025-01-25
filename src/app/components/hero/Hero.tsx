@@ -6,7 +6,7 @@ import TopNav from "./TopNav";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col relative w-[100vw]  items-center ">
+    <div className="flex flex-col relative w-[100vw] gap-10 items-center ">
       {/* Top Nav */}
       <TopNav />
       <Menue />

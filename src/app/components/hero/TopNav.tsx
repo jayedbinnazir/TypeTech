@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function TopNav() {
   return (
-    <div className="top-nav fixed flex justify-center flex-wrap bg-transparent z-20 w-full shadow-lg transition-all duration-300">
-      <div className="basis-1/2 flex gap-2 p-1.5 font-Poppins font-bold text-[16px] text-[#FFFFFF]">
+    <div className="top-nav  p-2 md:p-1 fixed flex justify-center  flex-wrap bg-transparent z-20 w-full shadow-lg transition-all duration-300">
+      <div className="basis-1/2 flex gap-2 p-2 font-Poppins font-bold text-[16px] text-[#FFFFFF]">
         <p className="text-center flex justify-end items-baseline gap-1 pr-1 basis-1/2">
           <Image
             src="/assets/Email Icon.svg"

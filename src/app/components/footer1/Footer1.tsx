@@ -120,20 +120,23 @@ function Footer1() {
           <p className="mt-4">
             Subscribe to our weekly Newsletter and receive updates via email.
           </p>
-          <form className="mt-5" aria-label="Newsletter Subscription">
-            <label htmlFor="email-input" className="sr-only">
-              Email Address
-            </label>
+          <div className="flex items-center w-[80vw] md:w-[344px] h-[58px] border mt-2 border-gray-300 ">
             <input
-              type="email"
-              id="email-input"
-              name="email"
-              className="px-6 py-4 font-light bg-white text-neutral-400 w-full max-md:w-full"
+              type="text"
               placeholder="Email"
-              required
-              aria-required="true"
+              className="flex-grow h-full pl-4 text-gray-500 focus:outline-none"
             />
-          </form>
+            <div className="w-[50px] h-full bg-red-500 flex items-center justify-center ">
+              <div className="relative w-[15px] h-[15px]">
+                <Image
+                  src="/assets/inputArrow.svg"
+                  alt="Send Icon"
+                  layout="fill"
+                  objectFit="contain"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
