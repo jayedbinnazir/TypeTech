@@ -25,7 +25,7 @@ export default function Rectangle() {
           role="button"
           tabIndex={0}
         >
-          <div>Lease</div>
+          <div>Property Type</div>
           <Image
             src="/assets/dArrow.svg"
             alt="Lease Image 2"
@@ -41,7 +41,7 @@ export default function Rectangle() {
           role="button"
           tabIndex={0}
         >
-          <div>Lease</div>
+          <div>Choose City</div>
           <Image
             src="/assets/dArrow.svg"
             alt="Lease Arrow"
