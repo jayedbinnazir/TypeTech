@@ -15,7 +15,6 @@ function Card({ image, content, date, display }: CardProps<string>) {
     >
       <a href="#">
         <Image
-          className=""
           src={image}
           alt="Blog image"
           width={361} // Adjust the width as per your design
@@ -25,7 +24,6 @@ function Card({ image, content, date, display }: CardProps<string>) {
 
       <div className=" ml-2 p-1 mt-2 flex flex-row  gap-2 ">
         <Image
-          className=""
           src="/assets/Group.svg"
           alt="Blog image"
           width={11.85} // Adjust the width as per your design
@@ -35,10 +33,9 @@ function Card({ image, content, date, display }: CardProps<string>) {
           by:Admin
         </span>
         <Image
-          className=""
           src="/assets/Pointer.svg"
           alt="Blog image"
-          width={13.82} // Adjust the width as per your design
+          width={13} // Adjust the width as per your design
           height={10.85} // Adjust the height as per your design
         />
       </div>
