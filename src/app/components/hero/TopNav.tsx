@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function TopNav() {
   return (
     <div className="top-nav  p-2 md:p-1 fixed flex justify-center  flex-wrap bg-transparent z-20 w-full shadow-lg transition-all duration-300">
-      <div className="basis-1/2 flex gap-2 p-2 font-Poppins font-bold text-[16px] text-[#FFFFFF]">
-        <p className="text-center flex justify-end items-baseline gap-1 pr-1 basis-1/2">
+      <div className="basis-1/2 flex gap-2 p-2 font-poppins font-bold text-[16px] text-[#FFFFFF]">
+        <p className="text-center flex justify-end items-baseline gap-2 pr-1 basis-1/2">
           <Image
             src="/assets/Email Icon.svg"
             alt="Email Icon"
@@ -14,11 +14,11 @@ export default function TopNav() {
           />
           <span>info@RISErealty.com</span>
         </p>
-        <p className="text-center whitespace-nowrap flex items-baseline basis-1/2">
+        <p className="text-center whitespace-nowrap  flex gap-1 items-baseline basis-1/2">
           <Image
             src="/assets/Phone icon.svg"
             alt="Phone Icon"
-            className="w-3 h-3"
+            className="w-3 h-3 "
             width={12}
             height={12}
           />

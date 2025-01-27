@@ -1,7 +1,8 @@
-import Footer1 from "./components/footer1/Footer1";
+// import Footer1 from "./components/footer1/Footer1";
+import Fot from "./components/footer1/Fot";
 import Footer from "./components/footer2/Footer";
 import Hero from "./components/hero/Hero";
-import Section10 from "./components/section10/Section10";
+import Sec from "./components/section10/Sec";
 import Section3 from "./components/section3/Section3";
 import Section4 from "./components/section4/Section4";
 import Section5 from "./components/section5/Section5";
@@ -18,8 +19,8 @@ export default function Home() {
       <Section6 />
       <Section7 />
       <Section9 />
-      <Section10 />
-      <Footer1 />
+      <Sec />
+      <Fot />
       <Footer />
     </>
   );

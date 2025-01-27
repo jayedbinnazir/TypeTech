@@ -14,7 +14,7 @@ function Footer1() {
             width={50}
             height={50}
           />
-          <p className="self-stretch mt-2.5 text-white text-justify">
+          <p className="self-stretch mt-2.5  text-white text-justify">
             RISE Realty offers corporate commercial real estate solutions for
             properties across South Florida. RISE Realty is your dedicated
             partner in realizing your real estate goals. With our expert team

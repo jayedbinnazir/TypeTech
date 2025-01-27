@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Section6() {
   return (
-    <section className="w-full h-[319px] lg:w-[1422px] lg:h-[319px] relative top-16 mx-auto">
+    <section className="w-full h-[319px] border-2  lg:w-[1422px] lg:h-[319px] relative mt-16  mx-auto">
       {/* Video Player */}
       <video
         id="videoPlayer"

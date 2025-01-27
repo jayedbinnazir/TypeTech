@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Section9() {
   return (
-    <section className="h-[344px] bg-[#F2F6F7] flex justify-center items-center gap-4">
+    <section className="h-[344px] mt-40 bg-[#F2F6F7] flex justify-center items-center gap-4">
       <Image
         src="/assets/image 84.png"
         className="h-[175px] md:w-[175px]"

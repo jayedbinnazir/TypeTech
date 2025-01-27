@@ -20,7 +20,7 @@ export default function MainContent() {
           />
           <p>Real Estate Agency</p>
         </div>
-        <p className="font-semibold text-[65px] font-[Poppins] p-1 w-[400px] md:w-[600px] leading-[1]">
+        <p className="font-semibold text-[65px] font-[poppins] p-1 w-[400px] md:w-[600px] leading-[1]">
           Miami Real Estate Specialists
         </p>
       </div>

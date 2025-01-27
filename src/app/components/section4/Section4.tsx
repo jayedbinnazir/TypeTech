@@ -1,116 +1,45 @@
-import Image from "next/image";
+import CardSection4 from "./CardSection4";
 export default function Section4() {
   return (
-    <section className="mt-4 mx-auto flex flex-col gap-6 items-center justify-center">
-      <div className="w-[348px] h-[105px] flex flex-col p-1 justify-start items-center">
-        <div className="text-[#FF5A3C] w-[135px] h-[43.61px] p-2 text-center rounded-3xl bg-[#FFEAEA] font-nunito font-bold text-[14px] md:text-[16px] flex justify-center items-center">
+    <section className="  w-[361px] mt-16 mx-auto flex flex-col gap-6 items-center justify-center">
+      <div className="  w-[348px] h-[105px] flex flex-col p-1 justify-start items-center">
+        <div className="text-[#FF5A3C]  p-1 px-2 text-center rounded-3xl bg-[#FFEAEA] font-nunito font-bold text-[14px] md:text-[16px] flex justify-center items-center">
           Our Service
         </div>
-        <span className="text-[24px] md:text-[44px] font-Poppins font-bold">
+        <span className="text-[24px] md:text-[44px] font-poppins font-bold">
           Our Main focus
         </span>
       </div>
 
-      <div className="flex flex-col md:flex-row">
-        <div className="shadow-lg shadow-gray-400/40 p-4 w-[75vw] md:w-[258px] flex flex-col justify-center items-center gap-2">
-          <Image
-            src="/assets/icon.png"
-            alt="Corporate Relocation Icon 1"
-            className="w-[187px] h-[142px]"
-            width={187}
-            height={142}
-          />
-          <p className="p-1 font-Poppins font-bold text-[24px] flex flex-col items-center justify-center leading-[1]">
-            Corporate <span>Relocation</span>
-          </p>
-          <p className="grow w-[236px] h-[250px] text-[14px] text-center text-[#5C727D] py-5">
-            RISE Realty provides top-notch corporate relocation services
-            designed just for you. Whether you&apos;re growing your business or
-            shifting headquarters, our experienced team will find the perfect
-            location to meet your goals. Count on us for a smooth transition
-            that sets your business up for success!
-          </p>
-          <button>
-            <a className="text-[#92B7B6] font-bold font-Poppins">
-              Find A Location-&gt;
-            </a>
-          </button>
-        </div>
-
-        <div className="shadow-lg shadow-gray-400/40 w-[75vw] p-4 md:w-[258px] flex flex-col justify-center items-center gap-2">
-          <Image
-            src="/assets/icon (1).png"
-            alt="Corporate Relocation Icon 2"
-            className="w-[187px] h-[142px]"
-            width={187}
-            height={142}
-          />
-          <p className="p-1 font-Poppins font-bold text-[24px] flex flex-col items-center justify-center leading-[1]">
-            Tenant <span>Representation</span>
-          </p>
-          <p className="grow w-[236px] h-[250px] text-[14px] text-center text-[#5C727D] py-5">
-            RISE Realty provides top-notch corporate relocation services
-            designed just for you. Whether you&apos;re growing your business or
-            shifting headquarters, our experienced team will find the perfect
-            location to meet your goals. Count on us for a smooth transition
-            that sets your business up for success!
-          </p>
-          <button>
-            <a className="text-[#92B7B6] font-bold font-Poppins">
-              Find A Location-&gt;
-            </a>
-          </button>
-        </div>
-
-        <div className="shadow-lg shadow-gray-400/40 w-[75vw] p-4 md:w-[258px] flex flex-col justify-center items-center gap-2">
-          <Image
-            src="/assets/icon (2).png"
-            alt="Corporate Relocation Icon 3"
-            className="w-[187px] h-[142px]"
-            width={187}
-            height={142}
-          />
-          <p className="p-1 font-Poppins font-bold text-[24px] flex flex-col items-center justify-center leading-[1]">
-            Residential <span> Leasing & Sales</span>
-          </p>
-          <p className="grow w-[236px] h-[250px] text-[14px] text-center text-[#5C727D] py-5">
-            RISE Realty provides top-notch corporate relocation services
-            designed just for you. Whether you&apos;re growing your business or
-            shifting headquarters, our experienced team will find the perfect
-            location to meet your goals. Count on us for a smooth transition
-            that sets your business up for success!
-          </p>
-          <button>
-            <a className="text-[#92B7B6] font-bold font-Poppins">
-              Find A Location-&gt;
-            </a>
-          </button>
-        </div>
-
-        <div className="shadow-lg shadow-gray-400/40 w-[75vw] p-4 md:w-[258px] flex flex-col justify-center items-center gap-2">
-          <Image
-            src="/assets/icon (3).png"
-            alt="Corporate Relocation Icon 4"
-            className="w-[187px] h-[142px]"
-            width={187}
-            height={142}
-          />
-          <p className="p-1 font-Poppins font-bold text-[24px] flex flex-col items-center justify-center leading-[1]">
-            Serviced <span>Offices</span>
-          </p>
-          <p className="grow w-[236px] h-[250px] text-[14px] text-center text-[#5C727D] py-5">
-            RISE Realty provides top-notch corporate relocation services
-            designed just for you. Whether you&apos;re growing your business or
-            shifting headquarters, our experienced team will find the perfect
-            location to meet your goals. Count on us for a smooth transition
-            that sets your business up for success!
-          </p>
-          <button>
-            <a className="text-[#92B7B6] font-bold font-Poppins">
-              Find A Location-&gt;
-            </a>
-          </button>
-        </div>
+      <div className="flex flex-col w-[361px] md:w-[1090px] justify-center items-center md:flex-row gap-4 ">
+        <CardSection4
+          logo={"/assets/icon.png"}
+          title={"Corporate Relocation"}
+          content={
+            "RISE Realty provides top-notch corporate relocation services de signed just for you. Whether you're growing your business or shifting headquarters, our experi enced team will find the perfect location to meet your goals. Count on us for a smooth transi tion that sets your business up for success!"
+          }
+        />
+        <CardSection4
+          logo={"/assets/icon (1).png"}
+          title={"Tenant Representation"}
+          content={
+            "RISE Realty provides top-notch corporate relocation services de signed just for you. Whether you're growing your business or shifting headquarters, our experi enced team will find the perfect location to meet your goals. Count on us for a smooth transi tion that sets your business up for success!"
+          }
+        />
+        <CardSection4
+          logo={"/assets/icon (2).png"}
+          title={"Residential Leasing & Sales"}
+          content={
+            "RISE Realty provides top-notch corporate relocation services de signed just for you. Whether you're growing your business or shifting headquarters, our experi enced team will find the perfect location to meet your goals. Count on us for a smooth transi tion that sets your business up for success!"
+          }
+        />
+        <CardSection4
+          logo={"/assets/icon (3).png"}
+          title={"Serviced Offices"}
+          content={
+            "RISE Realty provides top-notch corporate relocation services de signed just for you. Whether you're growing your business or shifting headquarters, our experi enced team will find the perfect location to meet your goals. Count on us for a smooth transi tion that sets your business up for success!"
+          }
+        />
       </div>
     </section>
   );

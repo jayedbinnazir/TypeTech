@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        poppins: ["poppins", "sans-serif"],
+        nunito: ['"Nunito Sans"', "sans-serif"], // Wrap multi-word fonts in quotes
+      },
     },
   },
   plugins: [],
