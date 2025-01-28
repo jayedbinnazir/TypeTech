@@ -33,7 +33,7 @@ function Card({ image, content, date, display }: CardProps<string>) {
           by:Admin
         </span>
         <Image
-          src="/assets/Pointer.svg"
+          src="/assets/pointer.svg"
           alt="Blog image"
           width={13} // Adjust the width as per your design
           height={10.85} // Adjust the height as per your design
