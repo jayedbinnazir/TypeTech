@@ -66,7 +66,7 @@ function Fot() {
           <div className="flex -ml-1 gap-3 ">
             <Image
               loading="lazy"
-              src="/assets/FaceBookW.svg"
+              src="/assets/FacebookW.svg"
               alt="Facebook Icon"
               className="object-contain shrink-0 my-auto w-4 aspect-[1.33]"
               width={9}
